@@ -21,6 +21,12 @@ public class Tile
     public TileType tile_type = TileType.Plain;
     public bool destroyed = false;
 
+    public Tile()
+    {
+        destroyed = false;
+        tile_type = TileType.Plain;
+    }
+
     public int GetCost()
     {
         return cost[tile_type];
