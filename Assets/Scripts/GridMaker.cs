@@ -30,4 +30,17 @@ public class GridMaker : MonoBehaviour
     {
         
     }
+
+    private void UpdateTile(int x, int y)
+    {
+
+        int tileId = (int) grid[x, y].tile_type;
+
+        if (tileId == -1)
+        {
+            return;
+        }
+
+        tilemap.SetTile(new Vector3Int(x, y, 0), tileSet.tiles[tildId]);
+    }
 }
