@@ -41,6 +41,6 @@ public class GridMaker : MonoBehaviour
             return;
         }
 
-        tilemap.SetTile(new Vector3Int(x, y, 0), tileSet.tiles[tildId]);
+        //tilemap.SetTile(new Vector3Int(x, y, 0), tileSet.tiles[tildId]);
     }
 }
