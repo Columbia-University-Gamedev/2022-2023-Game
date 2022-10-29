@@ -16,7 +16,7 @@ public class CameraControl : MonoBehaviour
     //I will at some point go through and make it cleaner
      
      
-    float mainSpeed = 30.0f; //regular speed
+    public float mainSpeed = 30.0f; //regular speed
 
     private float totalRun= 1.0f;
      
